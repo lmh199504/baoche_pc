@@ -19,7 +19,8 @@ import {
 	Modal,
 	Breadcrumb,
 	Popover,
-	Empty
+	Empty,
+	Input
 } from 'ant-design-vue';
 
 
@@ -40,3 +41,4 @@ Vue.use(Modal)
 Vue.use(Breadcrumb)
 Vue.use(Popover)
 Vue.use(Empty)
+Vue.use(Input)

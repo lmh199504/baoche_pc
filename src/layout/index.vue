@@ -1,17 +1,21 @@
 <template>
 	<div class="layout">
 		<navHeader />
-		<div class="main-container">
-			<router-view />
-		</div>
+		<router-view />
+		<LeftForm />
+		<RightMenu />
 	</div>
 </template>
 
 <script>
+	import LeftForm from './leftForm.vue'
 	import NavHeader from './navHeader.vue'
+	import RightMenu from './rightMenu.vue'
 	export default{
 		components: {
-			NavHeader
+			NavHeader,
+			LeftForm,
+			RightMenu
 		}
 	}
 </script>
